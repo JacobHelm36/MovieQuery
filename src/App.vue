@@ -1,11 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <h1>Cool Movies</h1>
+    <div class="bg-dark" id="nav">
+      <h1 class="text-white cool-text">Cool Movies</h1>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import style from "./assets/style.css"
+export default {
+  
+}
+</script>
 
 <style>
 #app {

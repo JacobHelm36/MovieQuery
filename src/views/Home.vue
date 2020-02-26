@@ -2,11 +2,9 @@
   <div class="home container-fluid">
     <div class="row">
       <div class="col text-center">
-        <h1>Search for movies by title</h1>
         <movieSearch/>
       </div>
       <div class="col text-center">
-        <h5>The active movie</h5>
         <activeMovie/>
       </div>
     </div>

@@ -1,5 +1,6 @@
 <template>
-  <div class="search row">
+  <div class="search row bg-blue">
+    <h4>Search for movies by title</h4>
       
     <input v-model="query"/>
     <button class="btn btn-warning" @click="searchQuery()">search</button>
@@ -13,8 +14,9 @@
 
 <script>
 import Movie from "./Movie"
+import colors from "../assets/style.css"
 export default {
-  name: 'Search',
+  name: 'MovieSearch',
   data() {
     return {
       query:""
